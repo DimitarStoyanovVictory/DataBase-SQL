@@ -1,0 +1,1 @@
+CREATE VIEW [Users today] AS SELECT [Last Login] FROM Users 

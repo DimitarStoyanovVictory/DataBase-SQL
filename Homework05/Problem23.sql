@@ -1,0 +1,7 @@
+--ALTER TABLE Users 
+--DROP CONSTRAINT [MinLengthConstraint]
+--ALTER TABLE Users
+--ALTER COLUMN Password NVARCHAR(100) NULL
+
+UPDATE Users SET Password = NULL
+WHERE LoginTime >= '2015-07-02'
